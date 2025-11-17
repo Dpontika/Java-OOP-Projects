@@ -2,45 +2,45 @@
 
 
 
-A Java application that models a company telephone network with different telephone types (fixed and mobile) that share common calling behaviors but 
+A Java application that models a company telephone network with different telephone types (fixed and mobile) that share common calling behaviors but
 
 have unique cost calculations, showcasing real-world telecommunications billing systems.
 
 
 
-##### **Features**
+### **Features**
 
 
 
-&nbsp;   Abstract Base Class: Telephone class with common calling functionality
+    Abstract Base Class: Telephone class with common calling functionality
 
 
 
-&nbsp;   Polymorphic Cost Calculations: Same method produces different billing rates based on call types
+    Polymorphic Cost Calculations: Same method produces different billing rates based on call types
 
 
 
-&nbsp;   Multiple Telephone Types: Fixed and mobile phones with distinct number patterns
+    Multiple Telephone Types: Fixed and mobile phones with distinct number patterns
 
 
 
-&nbsp;   Random Call Generation: Dynamic simulation of thousands of telephone calls
+    Random Call Generation: Dynamic simulation of thousands of telephone calls
 
 
 
-&nbsp;   Cost Matrix System: Comprehensive billing rates for all call type combinations
+    Cost Matrix System: Comprehensive billing rates for all call type combinations
 
 
 
-&nbsp;   Statistical Reporting: Detailed call analytics and cost summaries
+    Statistical Reporting: Detailed call analytics and cost summaries
 
 
 
-&nbsp;   Phone Number Validation: Automatic validation of telephone number formats
+    Phone Number Validation: Automatic validation of telephone number formats
 
 
 
-##### **Classes**
+### **Classes**
 
 
 
@@ -56,19 +56,19 @@ Attributes:
 
 
 
-&nbsp;   phoneNumber (String): 10-digit telephone number
+    phoneNumber (String): 10-digit telephone number
 
 
 
-&nbsp;   totalSecondsToFixed (int): Cumulative seconds called to fixed phones
+    totalSecondsToFixed (int): Cumulative seconds called to fixed phones
 
 
 
-&nbsp;   totalSecondsToMobile (int): Cumulative seconds called to mobile phones
+    totalSecondsToMobile (int): Cumulative seconds called to mobile phones
 
 
 
-&nbsp;   costs (static double\[]\[]): Billing rates matrix \[from\_type]\[to\_type]
+    costs (static double\[]\[]): Billing rates matrix \[from\_type]\[to\_type]
 
 
 
@@ -76,27 +76,27 @@ Main Methods:
 
 
 
-&nbsp;   dial(String targetNumber): Abstract method - initiates calls with duration tracking
+    dial(String targetNumber): Abstract method - initiates calls with duration tracking
 
 
 
-&nbsp;   cost(): Abstract method - calculates total call costs
+    cost(): Abstract method - calculates total call costs
 
 
 
-&nbsp;   isValidPhoneNumber(String number): Validates 10-digit format starting with 2 or 6
+    isValidPhoneNumber(String number): Validates 10-digit format starting with 2 or 6
 
 
 
-&nbsp;   isFixedPhone(String number): Determines if number is fixed (starts with 2) or mobile (starts with 6)
+    isFixedPhone(String number): Determines if number is fixed (starts with 2) or mobile (starts with 6)
 
 
 
-&nbsp;   getCallCost(String targetNumber, int duration): Calculates cost based on call type matrix
+    getCallCost(String targetNumber, int duration): Calculates cost based on call type matrix
 
 
 
-&nbsp;   displayInfo(): Shows telephone information and call statistics
+    displayInfo(): Shows telephone information and call statistics
 
 
 
@@ -114,7 +114,7 @@ Attributes:
 
 
 
-&nbsp;   Inherits all attributes from Telephone class
+    Inherits all attributes from Telephone class
 
 
 
@@ -122,15 +122,15 @@ Main Methods:
 
 
 
-&nbsp;   dial(String targetNumber): Implements fixed phone calling with Greek messages
+    dial(String targetNumber): Implements fixed phone calling with Greek messages
 
 
 
-&nbsp;   cost(): Calculates costs using fixed phone rates (0.05€ fixed-to-fixed, 0.07€ fixed-to-mobile)
+    cost(): Calculates costs using fixed phone rates (0.05€ fixed-to-fixed, 0.07€ fixed-to-mobile)
 
 
 
-&nbsp;   displayInfo(): Shows fixed telephone specific information
+    displayInfo(): Shows fixed telephone specific information
 
 
 
@@ -148,7 +148,7 @@ Attributes:
 
 
 
-&nbsp;   Inherits all attributes from Telephone class
+    Inherits all attributes from Telephone class
 
 
 
@@ -156,15 +156,15 @@ Main Methods:
 
 
 
-&nbsp;   dial(String targetNumber): Implements mobile phone calling with Greek messages
+    dial(String targetNumber): Implements mobile phone calling with Greek messages
 
 
 
-&nbsp;   cost(): Calculates costs using mobile phone rates (0.08€ mobile-to-fixed, 0.10€ mobile-to-mobile)
+    cost(): Calculates costs using mobile phone rates (0.08€ mobile-to-fixed, 0.10€ mobile-to-mobile)
 
 
 
-&nbsp;   displayInfo(): Shows mobile telephone specific information
+    displayInfo(): Shows mobile telephone specific information
 
 
 
@@ -182,11 +182,11 @@ Attributes:
 
 
 
-&nbsp;   scanner (Scanner): User input handler
+    scanner (Scanner): User input handler
 
 
 
-&nbsp;   Static telephone arrays and counters
+    Static telephone arrays and counters
 
 
 
@@ -194,27 +194,27 @@ Main Methods:
 
 
 
-&nbsp;   main(String\[] args): Program entry point with command line argument processing
+    main(String\[] args): Program entry point with command line argument processing
 
 
 
-&nbsp;   getNumberOfPhones(String\[] args): Gets phone count from args or user input
+    getNumberOfPhones(String\[] args): Gets phone count from args or user input
 
 
 
-&nbsp;   createCompanyPhones(int count): Generates phones with 70% fixed, 30% mobile distribution
+    createCompanyPhones(int count): Generates phones with 70% fixed, 30% mobile distribution
 
 
 
-&nbsp;   generateFixedNumber()/generateMobileNumber()/generateRandomTargetNumber(): Phone number generation utilities
+    generateFixedNumber()/generateMobileNumber()/generateRandomTargetNumber(): Phone number generation utilities
 
 
 
-&nbsp;   makeRandomCalls(Tilefono\[] phones): Simulates 1000-10000 random calls between phones
+    makeRandomCalls(Tilefono\[] phones): Simulates 1000-10000 random calls between phones
 
 
 
-&nbsp;   displayResults(Tilefono\[] phones): Comprehensive reporting of all call statistics and costs
+    displayResults(Tilefono\[] phones): Comprehensive reporting of all call statistics and costs
 
 
 

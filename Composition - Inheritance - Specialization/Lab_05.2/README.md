@@ -6,31 +6,31 @@ A Java application that models vehicles as composed objects with separate engine
 
 
 
-##### **Features**
+### **Features**
 
 
 
-&nbsp;   Component-Based Design: Vehicles are composed of independent engine and steering systems
+    Component-Based Design: Vehicles are composed of independent engine and steering systems
 
 
 
-&nbsp;   Realistic Vehicle Modeling: Accurate representation of automotive systems with specifications like engine displacement and horsepower
+    Realistic Vehicle Modeling: Accurate representation of automotive systems with specifications like engine displacement and horsepower
 
 
 
-&nbsp;   Interactive Testing: Demonstrate individual component functionality (engine operations, steering maneuvers)
+    Interactive Testing: Demonstrate individual component functionality (engine operations, steering maneuvers)
 
 
 
-&nbsp;   Comprehensive Queries: Retrieve specific vehicle information including engine specs, ownership details, and manufacturing data
+    Comprehensive Queries: Retrieve specific vehicle information including engine specs, ownership details, and manufacturing data
 
 
 
-&nbsp;   Modular Architecture: Independent components that can be tested, modified, and reused separately
+    Modular Architecture: Independent components that can be tested, modified, and reused separately
 
 
 
-##### **Classes**
+### **Classes**
 
 
 
@@ -46,23 +46,23 @@ Attributes:
 
 
 
-&nbsp;   owner (String): Vehicle owner's name
+    owner (String): Vehicle owner's name
 
 
 
-&nbsp;   licence\_num (String): Official license plate number
+    licence\_num (String): Official license plate number
 
 
 
-&nbsp;   year (int): Year of vehicle production
+    year (int): Year of vehicle production
 
 
 
-&nbsp;   DrivingSystem (driv\_sys): Steering component instance
+    DrivingSystem (driv\_sys): Steering component instance
 
 
 
-&nbsp;   eng (Engine): Engine component instance
+    eng (Engine): Engine component instance
 
 
 
@@ -70,19 +70,19 @@ Main Methods:
 
 
 
-&nbsp;   displayInfo(): Shows complete vehicle specifications
+    displayInfo(): Shows complete vehicle specifications
 
 
 
-&nbsp;   demonstrateDriving(): Tests all driving operations
+    demonstrateDriving(): Tests all driving operations
 
 
 
-&nbsp;   demonstrateEngine(): Tests engine startup and shutdown sequences
+    demonstrateEngine(): Tests engine startup and shutdown sequences
 
 
 
-&nbsp;   Getters and setters for all properties
+    Getters and setters for all properties
 
 
 
@@ -100,11 +100,11 @@ Attributes:
 
 
 
-&nbsp;   cc (int): Engine capacity in cubic centimeters (cc)
+    cc (int): Engine capacity in cubic centimeters (cc)
 
 
 
-&nbsp;   hp (int): Engine power output in horsepower
+    hp (int): Engine power output in horsepower
 
 
 
@@ -112,19 +112,19 @@ Main Methods:
 
 
 
-&nbsp;   starting(): Engine startup procedure
+    starting(): Engine startup procedure
 
 
 
-&nbsp;   running(): Engine running state
+    running(): Engine running state
 
 
 
-&nbsp;   shutDown(): Engine shutdown procedure
+    shutDown(): Engine shutdown procedure
 
 
 
-&nbsp;   Getters and setters for all properties
+    Getters and setters for all properties
 
 
 
@@ -142,19 +142,17 @@ Main Methods:
 
 
 
-&nbsp;   engineOn(): Vehicle engine is on
+    engineOn(): Vehicle engine is on
 
 
 
-&nbsp;   turnLeft(): Turn left maneuver
+    turnLeft(): Turn left maneuver
 
 
 
-&nbsp;   turnRight(): Turn right maneuver
+    turnRight(): Turn right maneuver
 
 
 
-&nbsp;   engineOff(): Vehicle engine is off
-
-
+    engineOff(): Vehicle engine is off
 

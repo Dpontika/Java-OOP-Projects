@@ -2,55 +2,55 @@
 
 
 
-A Java application demonstrating interface inheritance and multiple interface implementation. 
+A Java application demonstrating interface inheritance and multiple interface implementation.
 
 Models museum artifacts with different capabilities (sale, transport, insurance).
 
 
 
-Interfaces
+### **Interfaces**
 
 
 
-&nbsp;   ForSale: For items that can be sold
+    ForSale: For items that can be sold
 
 
 
-&nbsp;       getDescription(): Item description
+        getDescription(): Item description
 
 
 
-&nbsp;       getPrice(): Catalog price (in euros)
+        getPrice(): Catalog price (in euros)
 
 
 
-&nbsp;       getLowestPrice(double percentage): Lowest acceptable price
+        getLowestPrice(double percentage): Lowest acceptable price
 
 
 
-&nbsp;   FroTransfer: For items that can be transported
+    FroTransfer: For items that can be transported
 
 
 
-&nbsp;       getWEight(): Weight in grams
+        getWEight(): Weight in grams
 
 
 
-&nbsp;       isFragile(): Fragility indicator
+        isFragile(): Fragility indicator
 
 
 
-Inherited Interface
+### **Inherited Interface**
 
 
 
-&nbsp;   Insured: Extends both ForSale and FroTransfer
+    Insured: Extends both ForSale and FroTransfer
 
 
 
-&nbsp;       Inherits all methods from both parent interfaces
+        Inherits all methods from both parent interfaces
 
 
 
-&nbsp;       getAmount(): Insurance amount
+        getAmount(): Insurance amount
 

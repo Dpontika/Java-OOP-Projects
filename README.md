@@ -6,7 +6,7 @@ This repository contains a collection of exercise projects on Object-Oriented Pr
 
 
 
-##### Academic Context
+### Academic Context
 
 
 
@@ -18,7 +18,7 @@ This repository contains a collection of exercise projects on Object-Oriented Pr
 
 
 
-##### **Fundamental Concepts**
+### **Fundamental Concepts**
 
 \- **Encapsulation** and class design principles
 
@@ -30,7 +30,7 @@ This repository contains a collection of exercise projects on Object-Oriented Pr
 
 
 
-##### **Advanced Topics**
+### **Advanced Topics**
 
 \- **Exception Handling** and robust error management
 
@@ -42,7 +42,7 @@ This repository contains a collection of exercise projects on Object-Oriented Pr
 
 
 
-##### **How to Use**
+### **How to Use**
 
 Each project is self-contained with its own README and documentation.
 

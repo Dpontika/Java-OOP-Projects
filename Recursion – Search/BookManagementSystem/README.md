@@ -6,7 +6,7 @@ A Java application demonstrating that implements a complete book management syst
 
 
 
-##### **Features**
+### **Features**
 
 
 
@@ -36,7 +36,7 @@ A Java application demonstrating that implements a complete book management syst
 
 
 
-##### **Classes**
+### **Classes**
 
 
 

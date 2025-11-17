@@ -2,37 +2,37 @@
 
 
 
-A Java application that models different employee types in a company hierarchy with specialized salary calculations for each role, showcasing how object-oriented principles 
+A Java application that models different employee types in a company hierarchy with specialized salary calculations for each role, showcasing how object-oriented principles
 
 enable code reuse and extensibility in business applications.
 
 
 
-##### **Features**
+### **Features**
 
 
 
-&nbsp;   Hierarchical Employee Structure: Multi-level inheritance from base Employee to specialized roles
+    Hierarchical Employee Structure: Multi-level inheritance from base Employee to specialized roles
 
 
 
-&nbsp;   Polymorphic Salary Calculations: Same method call produces different results based on employee type
+    Polymorphic Salary Calculations: Same method call produces different results based on employee type
 
 
 
-&nbsp;   Multiple Employee Types: Support for hourly, salaried, and managerial staff with unique compensation rules
+    Multiple Employee Types: Support for hourly, salaried, and managerial staff with unique compensation rules
 
 
 
-&nbsp;   Comprehensive Reporting: Individual employee details, payroll summaries, and organizational statistics
+    Comprehensive Reporting: Individual employee details, payroll summaries, and organizational statistics
 
 
 
-&nbsp;   Extensible Design: Easy to add new employee types without modifying existing code
+    Extensible Design: Easy to add new employee types without modifying existing code
 
 
 
-##### **Classes**
+### **Classes**
 
 
 
@@ -48,19 +48,19 @@ Attributes:
 
 
 
-&nbsp;   name (String): Employee's full name
+    name (String): Employee's full name
 
 
 
-&nbsp;   id (String): Unique identification number
+    id (String): Unique identification number
 
 
 
-&nbsp;   specialty (String): Job role or specialization
+    specialty (String): Job role or specialization
 
 
 
-&nbsp;   address (String): Contact address
+    address (String): Contact address
 
 
 
@@ -68,15 +68,15 @@ Main Methods:
 
 
 
-&nbsp;   calculateSalary(): Abstract method - must be implemented by each subclass
+    calculateSalary(): Abstract method - must be implemented by each subclass
 
 
 
-&nbsp;   toString(): Returns formatted employee information
+    toString(): Returns formatted employee information
 
 
 
-&nbsp;   Getters and setters for all properties
+    Getters and setters for all properties
 
 
 
@@ -94,7 +94,7 @@ Additional attributes:
 
 
 
-&nbsp;   hours (int): Monthly hours worked
+    hours (int): Monthly hours worked
 
 
 
@@ -102,15 +102,15 @@ Salary Calculation:
 
 
 
-&nbsp;   Base rate: 7€ per hour worked
+    Base rate: 7€ per hour worked
 
 
 
-&nbsp;   Productivity bonus: 6% of total hourly earnings
+    Productivity bonus: 6% of total hourly earnings
 
 
 
-&nbsp;   Formula: (hours × 7) × 6%
+    Formula: (hours × 7) × 6%
 
 
 
@@ -118,11 +118,11 @@ Main Methods:
 
 
 
-&nbsp;   calculateSalary(): Implements hourly wage calculation with bonus
+    calculateSalary(): Implements hourly wage calculation with bonus
 
 
 
-&nbsp;   toString(): Includes hours worked in employee information
+    toString(): Includes hours worked in employee information
 
 
 
@@ -140,11 +140,11 @@ Additional attributes:
 
 
 
-&nbsp;   children (int): Dependents for child allowance
+    children (int): Dependents for child allowance
 
 
 
-&nbsp;   xp (int): Professional experience for bonus calculation
+    xp (int): Professional experience for bonus calculation
 
 
 
@@ -152,19 +152,19 @@ Salary Calculation:
 
 
 
-&nbsp;   Base salary: 700€ monthly
+    Base salary: 700€ monthly
 
 
 
-&nbsp;   Child allowance: 5% of base salary per child
+    Child allowance: 5% of base salary per child
 
 
 
-&nbsp;   Experience bonus: 10% of base salary per 3 years of experience
+    Experience bonus: 10% of base salary per 3 years of experience
 
 
 
-&nbsp;   Formula: 700 + (5% × children) + (10% × experience/3)
+    Formula: 700 + (5% × children) + (10% × experience/3)
 
 
 
@@ -172,11 +172,11 @@ Main Methods:
 
 
 
-&nbsp;   calculateSalary(): Computes total with allowances and experience bonus
+    calculateSalary(): Computes total with allowances and experience bonus
 
 
 
-&nbsp;   toString(): Displays children count and experience years
+    toString(): Displays children count and experience years
 
 
 
@@ -198,11 +198,11 @@ Additional Compensation:
 
 
 
-&nbsp;   Management bonus: 10% of total salaried compensation
+    Management bonus: 10% of total salaried compensation
 
 
 
-&nbsp;   Formula: SalariedEmployeeSalary × 10%
+    Formula: SalariedEmployeeSalary × 10%
 
 
 
@@ -210,9 +210,9 @@ Main Methods:
 
 
 
-&nbsp;   calculateSalary(): Applies management bonus to base salaried calculation
+    calculateSalary(): Applies management bonus to base salaried calculation
 
 
 
-&nbsp;   toString(): Identifies role as Manager with bonus indication
+    toString(): Identifies role as Manager with bonus indication
 
