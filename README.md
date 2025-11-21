@@ -1,4 +1,4 @@
-# University-Java-OOP-Projects
+# Java-OOP-Projects
 
 
 
