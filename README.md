@@ -2,19 +2,7 @@
 
 
 
-This repository contains a collection of exercise projects on Object-Oriented Programming with Java that are part of the curriculum program of the department Information and Electronic Engineering of the International Hellenic University.
-
-
-
-### Academic Context
-
-
-
-**Institution**: International Hellenic University
-
-**Department**: Information and Electronic Engineering
-
-**Course**: Object-Oriented Programming with Java
+This repository contains a collection of exercise projects on Object-Oriented Programming with Java.
 
 
 
